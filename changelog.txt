@@ -1,0 +1,547 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.27
+Date: 2025-08-04
+  Features:
+    - Added processing of xenotime and djerfisherite
+    - Added more data cards
+    - Added geological science pack 3 recipe chain
+    - Added logistic science pack 3 recipe chain
+  Changes:
+    - Logistics 3 (blue belts) unlocked after logistical science pack 2
+    - Changed many tech tree dependancies for tier 3 science packs
+  Bugfixes:
+    - Landfill can be now placed on coast water
+---------------------------------------------------------------------------------------------------
+Version: 0.3.26
+Date: 2025-08-01
+  Features:
+    - Added recipe chains for biolab
+    - Added data cards for automation and chemical science 3
+    - Added terbium recipe chain
+    - Added ytterbium recipe chain
+    - Added additional cargo landing pad technology
+    - Added methane and carbon dioxide from atmosphere recipes
+  Changes:
+    - BREAKING CHANGE: advanced chemical plant now has 6 inputs and outputs instead of 3
+    - Buldings can not not be crafted with productivity
+  Bugfixes:
+    - Fixed some icons
+    - Fixed some tech tree dependancies
+    - Biolab is now unlocked before automation science pack 3
+---------------------------------------------------------------------------------------------------
+Version: 0.3.25
+Date: 2025-07-25
+  Features:
+    - Added dysprosium recipe chain
+    - Added new ruthenium alloys
+    - Added recipe for core extractor
+  Changes:
+    - Removed noble gases tech and replaced with helium
+    - Changed helium recipe ratios
+    - Ruthenium powder produced in electrolysis plant
+    - Krypton asteroid is now much further away from the sun
+  Bugfixes:
+    - Fixed working animation of greenhouse
+    - Fixed pipe covers for incinerator
+    - Platium group metal concentrate is now made in chemical plant
+    - Ball bearing technology now requires automation 2
+---------------------------------------------------------------------------------------------------
+Version: 0.3.24
+Date: 2025-07-18
+  Changes:
+    - BREAKING CHANGE: Filtration plant now has 6 inputs instead of 2
+    - aqua regia recipe has now 1:3 ratio in its inputs
+    - Updated water filtration icons
+    - Rockets (military rocket) now require processing units
+  Bugfixes:
+    - Fixed missing locale
+---------------------------------------------------------------------------------------------------
+Version: 0.3.23
+Date: 2025-07-11
+  Features:
+    - Added ruthenium recipe chain
+    - Added iridium recipe chain
+    - Added osmium recipe chain
+    - Added late game ion chromatography recipes for rhenium and palladium
+  Changes:
+    - Reduced output of rhenium recipe
+    - Updated rhodium recipe chain
+    - Photodiode and photovoltaic cell now require arsenic iodide
+  Bugfixes:
+    - Fixed locale of recently added items, fluids, recipes and technologies
+    - Fixed platinum recipe chain
+    - Fixed that some recipes could not be crafted in steel and electric furnace
+    - Fast inserter does now not require electronic science
+    - Landfill from sand is now unlocked in landfill technology
+    - Potassium cyanide can now be crafted on chemical plant
+    - Optical sensor now requires cadmium processing
+    - Rocket fuel from peroxide now unlocked in rocket silo technology
+---------------------------------------------------------------------------------------------------
+Version: 0.3.22
+Date: 2025-07-04
+  Features:
+    - Added items and fluids for processing platinum group metals (before called noble metals)
+  Changes:
+    - Removed scrap
+    - Changed electrode recipe
+    - Changed recipe and technology requirements for advanced chemical plant
+    - Changed recipe chains for all noble metals and technologies
+    - Renamed noble metals smelting technology to electrum
+    - Removed electrode from iridium recipe
+  Bugfixes:
+    - Fixed some recipe icons
+    - Fixed dependancies in tech tree
+---------------------------------------------------------------------------------------------------
+Version: 0.3.21
+Date: 2025-06-27
+  Features:
+    - Added bromine recipe chain
+    - Added chemicals for processing aseroids
+  Changes:
+    - Rhodium asteroid chunks now spawn around nauvis
+    - Removed heavy gearbox from big mining drill recipe
+  Bugfixes:
+    - Fixed that explosives could be unlocked without having to unlock assembling-machine-2 since explosive require fluids to be crafted
+    - Fixed that potassium permanganate solution could be unlocked without unlocking magnesium processing
+---------------------------------------------------------------------------------------------------
+Version: 0.3.20
+Date: 2025-06-20
+  Changes:
+    - Removed recipe insulated wire from aluminum
+    - Removed recipe turbine blade from titanium aluminum tin and renamed turbine blade from steel recipe to be turbine blade like the item. (you will have to select again the recipe of the assembling machine)
+    - Removed some capacitor recipes and kept the capacitor from aluminum recipe and renamed recipe to capacitor (you will have to select again the recipe of the assembling machine)
+  Bugfixes:
+    - Fixed some asteroid chunks not spawning correctly
+    - Fixed power from solar panels in space for asteroids
+    - Fixed CMOS recipe was not craftable at its location in tech tree
+    - Fixed space science pack recipe chain
+---------------------------------------------------------------------------------------------------
+Version: 0.3.19
+Date: 2025-06-13
+  Features:
+    - Added asteroids as new space locations for acquiring minerals
+  Changes:
+    - Change laser technology and laser related recipes
+    - Rebalanced noble metal recipes
+    - Updated ja locale thanks to snow note
+  Bugfixes:
+    - Fixed frozen item icons on belts
+    - Fixed module visualzation in alt for some buildings buildings
+    - Fixed that cooling cooland could use productivity modules
+---------------------------------------------------------------------------------------------------
+Version: 0.3.18
+Date: 2025-06-06
+  Features:
+    - Rockets are built now in silo, rocket parts are built in manufacturer
+    - Added teflon recipe chain
+    - Added rhodium and its alloys
+  Changes:
+    - Changes in space science branch of tech tree
+    - Landed cargo pods are recovered when picking them up
+    - Changed location of high purity silicon in tech tree
+    - Removed ferrite with copper, zinc and nickel recipes
+    - Changed bleach recipe
+    - Some icon changes
+    - Biological science pack 2 is now made in greenhouse
+    - Nickel ore has now has 1 starting area patch
+    - Quality module 2 is unlocked after processing unit
+  Balancing:
+    - Increased power consumption and speed of big crusher and educed module slots from 4 to 3
+  Bugfixes:
+    - Fixed crystallizer animation speed
+    - Fixed recipe subgroup of biological science pack 2
+    - Fixed that shotgun and shutgun ammo was unlocked twice in tech tree
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+Date: 2025-05-30
+  Features:
+    - Added potassium casting
+    - Added crushed and enriched stibnite
+    - Added crushed and enriched holmium
+  Changes:
+    - Changed holmium processing recipes
+    - Smelting many metals is now not possible any more in crystallizer
+    - Changed order of some icons
+    - Some changes in tech tree
+    - Some recipes when enriching from crushed recoures yielded a small amount of an other ore. Now that ore is always in its crushed form.
+    - Renamed mineral water pumpjack prototype (All of your mineral pumpjacks will be deleted when updating)
+    - Hafnium and Rhenium alloys are processed in arcfurnace
+  Balancing:
+    - Belt immunity equipment is now unlocked earlier
+    - Rebalanced crystallizer
+  Bugfixes:
+    - Fixed some technology requirements for AAI Containers
+    - Fixed some technology icons
+    - Fixed tungsten plate and tungsten steel smelting recipe chains
+    - Fixed recipe casting stainless steel gear wheel
+    - Fixed requirement of light emitting diode for tier 2 modules
+    - Fixed assembling machines required for crafting tier 2 and tier 3 modules
+    - Fixed mineral water and iodine brine fluids icons were not showing up selecting them as train stop names
+    - Fixed molten indium from lava recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 2025-05-23
+  Changes:
+    - Updated ja locale thanks to snow note
+    - Increased stack size of stack inserters
+    - Agricultural tower does not require compressor to be built
+    - Reduced crafting speed of alloy forge
+    - Removed basic smelting, intermadiate smelting, melting and casting recipes from alloy forge
+    - Reduced number of spores from algae
+    - Liquids in barrels are shown now in fluids group
+  Bugfixes:
+    - Fixed zinc casting recipes produced more zinc oxide and zinc sulfate than they produce
+    - Fixed indium casting recipes produced more indium sulfate than they produce
+    - Fixed molten recipes from crushed iron ore and crushed copper ore
+    - Fixed name from train boige to train bogie (you will have to select again the recipe of the assembling machine)
+    - Fixed that fast inserter could carry higher stack size than bulk inserter
+    - Fixed chromium cobalt recipe
+    - Fixed biusart lab graphics (before it was low res)
+    - Fixed changelog visibility in game
+    - Fixed order of icons of first tier of science packs in lab reflectig better the order of progression
+    - Fixed that science packs on labs could be covered by modules in alt mode
+    - Fixed technology requirements for bio pesticide
+    - Fixed material science pack 2 not being required as input cost fore some sciences that came after it
+    - Fixed ingredients for lithium processing tech
+    - Fixed ingredients for logistics 3 tech
+    - Fixed integrated circuit tech not requiring polyvinl fluoride tech
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 2025-05-16
+  Features:
+    - Added coast water for having big algae farms. Can only be placed on deepwater.
+    - Added artificial gleba tile
+    - Added black and white reinforced plate tiles
+  Changes:
+    - Fungi renamed to honeycomb fungus
+    - Wheat is now accquired from wheat plants on nauvis growing on dry and grass tiles on nauvis terrain
+    - Honeycomb fungus is no accquired from honeycomb fungus plant growing on gleba terrain
+    - Wheat and honeycomb fungus can be cultivated just like othar plants
+    - Recipe changes for accquiring spores
+    - Updated some agriculture related icons
+  Bugfixes:
+    - Fixed enriching iron recipe
+    - Fixed some en locale
+    - Fixed magnesium not being able to be mined until reaching sulfur processing
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 2025-05-09
+  Features:
+    - Added ultramafic lava. This recource is accquired in the center of vulcanoes and provides rare minerals.
+    - Added vulcanic rocks
+    - Added new melting recipes from lava
+    - Added new casting recipes
+  Changes:
+    - Updated existing melting and casting recipes
+    - Removed low density structure, concrete and pipe to ground casting recipes
+    - Kovarex enrichment does not need space science to be unlocked
+    - Agricultural science does not spoil any more. Noice
+    - Updated Japanese locale thanks to Snow note
+  Bugfixes:
+    - Reverted some parts of the computers science branch. This technologies will be unlocked in a later stage of the game
+    - Fixed that computer science can only be made in quantum computer
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 2025-05-02
+  Features:
+    - Added water freezing recipe
+    - Added new items, recipes and technologies after unlocking computer science pack
+  Changes:
+    - Changed recipes for recipes in cryogenic tech branch
+    - Breeder reactor now requires fluoroketone for creating isotopes
+    - Antimony processing revamped and it is now unlocked after cryogenic science pack
+    - Updated some recipes related to rocket engine
+    - Modified some recipes for some electronics related intermediates
+    - Renamed glass fiber to optic fiber (you will have to select again from crafting menu on machine "optic fiber")
+  Bugfixes:
+    - Icons of nuclear fuel rods were not shown correctly
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 2025-04-25
+  Features:
+    - Added many nuclear isotopes with decay chains (spoiling :3)
+    - Added thorium fuel and MOX fuel
+  Changes:
+    - Changed covarex enrichment
+    - Better visibility for arrows in some recipe icons
+  Bugfixes:
+    - Fixed sulfur dioxide recipe
+    - Fixed some buildings with different fluid inputs
+    - Diamond recipe was uncorrectly producing alumina as byproduct
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 2025-04-18
+  Features:
+    - Added gas power station
+    - Added japanese localization thanks to Snow Note
+  Changes:
+    - Updated some building icons
+  Compatibility:
+    - Fix for generating icons for venting fluids when using multiple mods thanks to Andromeda
+  Bugfixes:
+    - Fix that frozen items can be used as nutrients for biochamber and greenhouse
+    - Fixed recipes that have more than 2 fluid inputs or outputs for the big crusher (eg palladium recipe)
+    - Fixed recipe chain for optical sensor
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 2025-04-11
+  Features:
+    - Added freezing and thawing recipes
+    - Added recipes for creating spoilage
+    - Added locale for subgroups and categories
+  Changes:
+    - Herbarium requires nutrients just like biochamber
+    - Updated natric acid recipe chain
+  Bugfixes:
+    - Fixed algae-spore recipe
+    - Fixed agricultural science pack recipe
+    - Nitric acid can now be crafted in the advanced chemical plant
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 2025-04-04
+  Features:
+    - New biological / agricultural tech tree
+    - Added herbarium
+    - Added CN locale thanks to rlcyyg1108
+  Changes:
+    - Updated woodfarming icon
+    - Renamed krastorio bio lab to genetics facility
+    - Renamed gyro to gyroscope
+    - Pressure tube now also requires seal
+    - Updated gun turret recipe
+  Balancing:
+    - Increased fuel values by 5
+    - Increased energy production by 5 or more of all power generation buildings
+    - Inserters require less energy
+    - Magazines and shotgun shells do now much more damage
+    - Weapon damage and shooting speed technologies have many more tiers and provide stronger bonuses
+    - I intend to add more military balancing in the future (for now firearms are op compared to anything else)
+  Bugfixes:
+    - Enriching crushed iron ore now correctly produces enriched iron
+    - Carbon fiber can be now produced in chemical plant
+    - Lead molybdate can be now produced in induction hardening facility
+    - Fixed recipe for research server due to cyclic dependency in tech tree
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 2025-03-21
+  Features:
+    - Added more items
+  Changes:
+    - Updated recipe chain for recycler
+    - Updated recipe chain for nuclear reactor
+    - Updated locale
+    - Updated graphics of buildings
+    - Changed tier 1 military items recipes
+    - Updated tier 2 military tech tree
+  Bugfixes:
+    - Fixed cyclic dependency in tech tree for craftgin diamond saw
+    - Fixed compatibility with factorio 2.0.42
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2025-03-14
+  Features:
+    - Added more items like mosfet, VRM, and doped silicon
+  Changes:
+    - Updated names for some alloys
+    - Updated icons for enriching ores
+    - Updated tech tree
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2025-03-09
+  Features:
+    - Added crystallizer
+  Changes:
+    - Updated tech tree
+    - Ferrite among other metals unlocked in mid to late game can now not be smelted in stone or steel furnace
+  Bugfixes:
+    - Electric furnace does not require electro magnets
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2025-03-08
+  Features:
+    - Added germanium recipe chain
+    - Updated recipe chains for sensors
+  Bugfixes:
+    - Potassium hydroxide solution does not require advanced chemical plant to be made.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2025-03-07
+  Features:
+    - Added new lumber mill sound thanks to Cyfagy
+    - Added hafnium and rheniun recipe chains
+  Changes:
+    - removed ammonium-hydroxide-solution. It's kinda the same thing as ammoniacal solution ¯\_(ツ)_/¯
+    - crushing tinstone will yield more leadstone. leadstone yields more lead slabs.
+  Bugfixes:
+    - Productivity modules can now be used with most recipes
+    - Propane products are unlocked now after chemical stager. This solves some technology tree cycles.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2025-03-28
+  Changes:
+    - Assembling machine 1 now requires electronic circuits
+    - Assembling machine 2 now requires advanced circuits
+    - Electrical components are now made in chemical plant
+  Bugfixes:
+    - Some ores now require an amount of fluid to be mined (before it was 0)
+    - Automation 2 technology is now reachable
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2025-02-28
+  Notes:
+    - Tech tree up to metallurgic (tier 2), electromagnetic (tier 2) and cryogenic packs is updated but i have not finished my playthrough. Please give me some feedback in the discussions section if you encounter any issues.
+  Features:
+    - Added new items
+    - Added locale for some late game tech
+    - Added polish locale thanks to S3BA
+    - Added arc-furnace sound thanks to Cyfagy
+  Changes:
+    - Updated stack sizes. Be carefull when updating.
+    - Car is now unlocked earlier
+    - Gas power station is now called incinerator and can burn solids and liquids for capturing the resulting gasses / oxides
+    - Fluid burner now vents gases and fluids (before it was called burning)
+    - Tech tree updates for reaching production science pack
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2025-02-23
+  Changes:
+    - Tech tree updates for reaching logistic science pack 2
+    - Moved fluid recipes to fluid recipes group
+    - Updated some crafting categories
+    - Increased crafting speed of some buildings
+  Bugfixes:
+    - Fixed some missing locale
+    - Fixed storage volume of tanks
+    - Radar is now unlocked after automation core
+    - Burner inserter can now be unlocked in tech tree
+    - Updated sodium hydroxide recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2025-02-20
+  Features:
+    - Compatible with Factorio Space age
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 2024-10-20
+  Features:
+    - Added new infinite technologies
+  Bugfixes:
+    - Fixed scaling of technology costs
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 2024-10-18
+  Bugfixes:
+    - Updated some icons with isometric perspective
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2024-10-16
+  Features:
+    - New recipes enriching crushed ores
+  Bugfixes:
+    - Changed order and subgroups of some items
+    - Reduced size of mod by removing some hr graphics
+    - Fixed module icons on alt view for krastorio crusher and lumber mill
+    - Fixed subgroup of alien fluid recipes
+    - Fixed fluid inputs for filtration plant
+    - Fixed locale of bleach and epoxy
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2024-10-16
+  Bugfixes:
+    - Wooden board (sawing crafting category) can now be handcrafted
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2024-10-16
+  Features:
+    - New recipes for military items
+  Bugfixes:
+    - Fixed military tech tree for Krastorio2 "more realistic guns" setting is enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2024-10-15
+  Notes:
+    - If you have already a big factory it might not be worth upgrading since some recipes have changed
+  Features:
+    - New Building: Lumber mill
+    - Added wooden board
+    - Engineer spawns now with biolab, pipes and offshore pump for easier wood production
+    - Support for krastorio custom stack sizes
+    - Space research data is now crushed into rocket control unit, processing unit and electronic components
+    - Update to resource spawning
+    - Added asteroid mining for dark matter
+  Bugfixes:
+    - Unlock unlimited ingredient count for krastorio buildings
+    - Locale fixes
+    - Personal roboports mk3 and mk4 are now in crafting category
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2024-10-10
+  Features:
+    - Added radioactivity to nuclear items. Only works upon creating a new game.
+  Bugfixes:
+    - Changed position of steel plate icon
+    - Moved krastorio matter-conversion and matter-deconversion recipes to base products item group
+    - Removed recipes from barrel recipes that are not supposed to exist (like dark energy in a barrel seems anticlimactic)
+    - Fixed barrel tints 
+    - Fixed chemistry crafting machine tints
+    - Nickel ore is now correctly crushed into crushed nickel ore
+    - Some crushing recipes have more than 3 outputs. The krastorio crusher now has 8 output slots.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2024-10-08
+  Features:
+    - Update locale for rockets
+    - Improved rocket graphics
+  Bugfixes:
+    - Putting wrong explorer into rocket now results in loosing it
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2024-10-07
+  Features:
+    - Added locale for en
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2024-10-05
+  Features:
+    - Changed order of many icons and recipes in inventory and crafting menu
+    - Many recipes are now hidden from player
+  Bugfixes:
+    - Renamed rare metal to rare metals
+    - Nanoflex is now unlocked by researching nanobots
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2024-09-29
+  Features:
+    - Added personal roboports mk3 and mk4
+    - Added more uses to neodymium magnets
+  Bugfixes:
+    - Updated military tech tree and recipes
+    - Updated ai core recipe
+    - Deuterium recipe unlocked with fusion energy tech
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2024-09-28
+  Bugfixes:
+    - Blocked decomposition for recipes with multiple outputs. The total raw calculation in recipes resulted in "Too complex" error.
+    - Light emitting diode is now researched with advanced electronics 2
+    - Reduced size of mod from 250 MB to 50 MB
+    - Fixed contact link
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2024-09-28
+  Features:
+    - Created new recipe category for 3 fluids
+  Bugfixes:
+    - Military tech cards has now the krastorio 2 recipe (recipes in military tech branch still need to be updated)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2024-09-27
+  Bugfixes:
+    - Grobgnum is now spawning on the map
+    - Added localization (en) for resources
+    - Updated info.json
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-09-26
+  Features:
+    - Starting alpha version
